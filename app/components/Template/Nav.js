@@ -27,7 +27,7 @@ const Nav = () => (
       </p>
       <ul className="actions">
         <li>
-          {window.location.pathname !== `${BASE_PATH}/resume` ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {window.location.pathname !== `${BASE_PATH}/about` ? <Link to="/about" className="button">Learn More</Link> : <a href="https://drive.google.com/open?id=11gCj6NwvS1Xsc0XJyOTh4fdoNXvUN8JF" className="button">More About Me</a>}
         </li>
       </ul>
     </section>
