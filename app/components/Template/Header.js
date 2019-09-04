@@ -13,11 +13,10 @@ const Header = () => (
     </h1>
     <nav className="links">
       <ul>
-        {routes.filter((l) => !l.index).map((l) => (
-          <li key={l.label}>
-            <Link to={l.path}>{l.label}</Link>
-          </li>
-        ))}
+        <li key={'About'}><Link to ={'/about'}>About</Link></li>
+        <li key={'Projects'}><Link to ={'/projects'}>Projects</Link></li>
+        <li key="Resume"><a href="https://drive.google.com/open?id=11gCj6NwvS1Xsc0XJyOTh4fdoNXvUN8JF">Resume</a></li>
+        <li key={'Contact'}><Link to ={'contact'}>Contact</Link></li>
       </ul>
     </nav>
     <Hamburger />

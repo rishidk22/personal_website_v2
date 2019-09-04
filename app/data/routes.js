@@ -1,7 +1,7 @@
 const data = [
   {
     path: '/',
-    label: 'Michael D\'Angelo',
+    label: 'Rishi Kalluri',
     index: true,
   },
   {
@@ -9,16 +9,8 @@ const data = [
     label: 'About',
   },
   {
-    path: '/resume',
-    label: 'Resume',
-  },
-  {
     path: '/projects',
     label: 'Projects',
-  },
-  {
-    path: '/stats',
-    label: 'Stats',
   },
   {
     path: '/contact',
