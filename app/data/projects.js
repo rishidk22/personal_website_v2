@@ -21,16 +21,8 @@ const data = [
       + 'This kernel is a basic x86 kernel, supporting simple functionality. It was built'
       + 'with a read-only file system, paging and virtual memory to allow for program execution, '
       + 'and a task scheduler to allow for processes to run efficiently.',
-  }, {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc: 'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  }, {
+  },
+  {
     title: 'IoT Arduino LED',
     subtitle: 'An implementation of connnecting an Arduino to the internet',
     link: 'https://github.com/rishidk22/iot_arduino',
@@ -40,6 +32,17 @@ const data = [
      + 'Wired an Arduino to connect to the internet and turn on an LED based on web input. Then, '
      + 'implemented API so Arduino could poll the API to see if the LED should be switched on or off',
   },
+  {
+   title: 'San Francisco Police Dispatch Analysis',
+   subtitle: 'An analysis of the trends found in the SFPD Dispatch data',
+   link: 'https://github.com/rishidk22/SFPDDataAnalysis',
+   image: '/images/projects/sfpd.png',
+   date: '2018-03-27',
+   desc: 'SFPD Dispath Analysis: '
+     + 'An analysis of the trends found in the SFPD Dispatch analysis. This tool '
+     + 'identifies trends found in the data accross zip code and population. '
+     + 'Additionally, it has a prediction tool to predict what dispatch will occur based on emergency and zip code. ',
+ },
 ];
 
 export default data;
