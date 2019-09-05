@@ -14,7 +14,7 @@ const Index = () => (
       </header>
       <p>It's nice to meet you! Please feel free to read more <Link to="/about">about me</Link>,
         or you can check out my {' '}
-        <a href="https://drive.google.com/file/d/1y4HiGuoS7u6X67QMGnUDKt5MhEqe--0d/view?usp=sharing">resume</a>, {' '}
+        <a href="https://drive.google.com/file/d/1mmwNJlB2c3Og9kj39Hks9RWSiX5TW8aZ/view?usp=sharing">resume</a>, {' '}
         <Link to="/projects">projects</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
