@@ -3,7 +3,7 @@ const data = [
   {
     title: 'Cryptocurrency Sentiment Analysis',
     subtitle: 'Created for hackathon, to analyze and predict crypto price trends',
-    link: 'https://devpost.com/software/harvest',
+    link: 'https://github.com/rishidk22/crypto_sentiment_analysis',
     image: '/images/projects/crypto.png',
     date: '2019-06-07',
     desc: 'Created analysis tool for crypto pricing: '
